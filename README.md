@@ -10,3 +10,6 @@ Splitting this project into three major components known as modules:
 Setting variables by using the variables definition file.
 
 The terraform.tfvars sets the namespace and region variables in variables.tf
+
+The networking module provision all networking-related components of the web app, Virtual Private Cloud (VPC), subnets, the internet gateway, and security groups.
+

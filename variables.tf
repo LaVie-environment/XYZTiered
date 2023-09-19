@@ -13,3 +13,7 @@ variable "region" {
     default = "eu-west-2"
     type = string
 }
+
+variable "profile" {
+    default = "gachio"
+}
