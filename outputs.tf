@@ -3,5 +3,5 @@ output "db_password" {
 }
 
 output "lb_dns_name" {
-    value = "tbd"
+  value = module.alb.this_lb_dns_name
 }
